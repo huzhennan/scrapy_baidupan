@@ -7,8 +7,6 @@
 
 import scrapy
 
-
-class ScrapyBaidupanItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class PanLinkItem(scrapy.Item):
+    link = scrapy.Field()
+    pwd = scrapy.Field()
